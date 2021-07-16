@@ -244,13 +244,14 @@ a:visited {
   }
 
   .form__label {
-    padding-right: 1rem;
+    max-width: 5rem;
+    /* padding-right: 1rem; */
     font-size: 1rem;
     font-weight: 600;
   }
 
   .form__input {
-    width: 6rem;
+    width: 50%;
     /* padding: 0.2rem 1.5rem; */
     font-family: inherit;
     font-size: 1rem;
