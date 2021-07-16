@@ -76,6 +76,7 @@ a:visited {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.75rem 1.5rem;
 }
+
 .workout--running {
   border-left: 5px solid var(--color-brand--2);
 }
@@ -244,7 +245,7 @@ a:visited {
   }
 
   .form__label {
-    max-width: 5rem;
+    max-width: 6rem;
     /* padding-right: 1rem; */
     font-size: 1rem;
     font-weight: 600;
@@ -268,5 +269,22 @@ a:visited {
 
   .form__row--hidden {
     display: none;
+  }
+
+  .workout {
+    background-color: var(--color-dark--2);
+    border-radius: 5px;
+    padding: 1.5rem 2.25rem;
+    margin-bottom: 1.75rem;
+    cursor: pointer;
+  
+    display: list-item;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.75rem 1.5rem;
+  }
+
+  .workout__details {
+    display: flex;
+    align-items: baseline;
   }
 }
