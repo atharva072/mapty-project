@@ -219,9 +219,21 @@ a:visited {
 }
 
 @media only screen and (max-width: 600px) {
+
+  body {
+    display: list-item;
+  }
+
   .sidebar {
+    height: 50%;
     background-color: var(--color-dark--1);
     flex-basis: 10rem;
+  }
+
+  #map {
+    flex: 1;
+    height: 100%;
+    background-color: var(--color-light--1);
   }
 
   .workouts {
